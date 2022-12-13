@@ -34,7 +34,7 @@ export default {
     padding: 0.2em;
 }
 .projects h2 a {
-    background-color: #428a4b;
+    background-color: #582aad;
     border-radius: 12px;
     color: white;
     cursor: pointer;

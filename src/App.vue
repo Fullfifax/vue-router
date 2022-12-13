@@ -37,14 +37,17 @@ nav a {
   text-decoration: none;
 }
 nav a.router-link-exact-active {
-  background-color: #2c3e50;
+  background-color: #582aad;
   color: white;
   padding: 12px 16px;
 }
 nav a:hover {
-  background-color: #2c3e50;
+  background-color: #582aad;
   color: white;
   opacity: 0.5;
   padding: 12px 16px;
+}
+.nav-left h2 {
+  color: #582aad;
 }
 </style>

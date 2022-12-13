@@ -55,6 +55,8 @@ export default {
     margin: 0 0.4em;
 }
 .exp {
-    margin: 0 2em;
+    background-color: #582aad;
+    color: white;
+    padding: 20px;
 }
 </style>

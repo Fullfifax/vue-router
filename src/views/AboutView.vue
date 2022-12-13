@@ -7,6 +7,9 @@
 
 <style>
 .about {
+  background-color: #582aad;
+  color: white;
+  padding: 20px;
   text-align: center;
 }
 </style>
