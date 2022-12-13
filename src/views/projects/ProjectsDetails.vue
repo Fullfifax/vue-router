@@ -1,10 +1,10 @@
 <template>
-    <p>The project id is {{ id }}</p>
+    <p class="p-id">The project id is {{ id }}</p>
 </template>
 
 <script>
 export default {
-    props:['id']
+    props:['id', 'type']
     /*
     data() {
         return {
@@ -16,4 +16,7 @@ export default {
 </script>
 
 <style>
+.p-id {
+    text-align: center;
+}
 </style>

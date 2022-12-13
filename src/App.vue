@@ -41,4 +41,10 @@ nav a.router-link-exact-active {
   color: white;
   padding: 12px 16px;
 }
+nav a:hover {
+  background-color: #2c3e50;
+  color: white;
+  opacity: 0.5;
+  padding: 12px 16px;
+}
 </style>

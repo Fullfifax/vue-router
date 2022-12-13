@@ -4,3 +4,9 @@
     <p>I am Fenofifaliana, <span class="junior-dev">Junior Developer</span>, and an autonomous self taught.</p>
   </div>
 </template>
+
+<style>
+.about {
+  text-align: center;
+}
+</style>

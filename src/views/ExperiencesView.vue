@@ -1,6 +1,6 @@
 <template>
-    <h2>Experiences</h2>
-    <div v-for="experience in experiences" :key="experience.id">
+    <div class="exp" v-for="experience in experiences">
+        <h2>Experiences</h2>
         <h3>
             {{ experience.period }} {{ experience.year }}: {{ experience.occupation }} {{ experience.place }}
         </h3>
@@ -53,5 +53,8 @@ export default {
 }
 .tech-used p {
     margin: 0 0.4em;
+}
+.exp {
+    margin: 0 2em;
 }
 </style>
