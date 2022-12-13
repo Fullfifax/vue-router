@@ -6,6 +6,7 @@
     <div class="nav-right">
       <router-link :to="{ name:'home' }">Home</router-link>
       <router-link :to="{ name: 'about' }">About</router-link>
+      <router-link :to="{ name: 'exp' }">Experiences</router-link>
     </div>
   </nav>
   <router-view/>
