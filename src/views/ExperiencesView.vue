@@ -26,7 +26,7 @@ export default {
                     period: 'June - March',
                     place: 'TEKO',
                     technologies: ['HTML5', 'CSS3', 'Javascript', 'PHP', 'Prestashop', 'MySQL'],
-                    year: 2022  
+                    year: 2022
                 }
                 /*
                 { 

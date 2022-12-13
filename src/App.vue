@@ -4,9 +4,10 @@
       <h2>Fullfifax</h2>
     </div>
     <div class="nav-right">
-      <router-link :to="{ name:'home' }">Home</router-link>
-      <router-link :to="{ name: 'about' }">About</router-link>
-      <router-link :to="{ name: 'exp' }">Experiences</router-link>
+      <router-link :to="{ name:'HomeView' }">Home</router-link>
+      <router-link :to="{ name: 'AboutView' }">About</router-link>
+      <router-link :to="{ name: 'ExperiencesView' }">Experiences</router-link>
+      <router-link :to="{ name: 'ProjectsView' }">Projects</router-link>
     </div>
   </nav>
   <router-view/>
