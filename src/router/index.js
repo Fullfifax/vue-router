@@ -4,6 +4,7 @@ import AboutView from '../views/AboutView.vue'
 import ExperiencesView from '../views/ExperiencesView.vue'
 import ProjectsView from '../views/projects/ProjectsView.vue'
 import ProjectDetails from '../views/projects/ProjectsDetails.vue'
+import error404 from '../views/error404.vue'
 import '../assets/css/global.css'
 
 const routes = [
@@ -36,6 +37,17 @@ const routes = [
     name: 'ProjectDetails',
     component: ProjectDetails,
     props: true
+  },
+  // Redirection
+  {
+    path: '/all-projects',
+    redirect: '/projects'
+  },
+  // 404 not found
+  {
+    path: '/:catchAll(.*)',
+    name: 'error404',
+    component: error404
   }
 ]
 
