@@ -1,0 +1,19 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "names": ["Fulltranslator", "Fullchess"],
+            "type": "Desktop application"
+        },
+        {
+            "id": 2,
+            "names": ["CodX integration", "Notifiara"],
+            "type": "Web"
+        },
+        {
+            "id": 3,
+            "names": ["Mini-project"],
+            "type": "Mobile application"
+        }
+    ]
+}

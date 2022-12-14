@@ -10,21 +10,14 @@
 export default {
     data() {
         return {
-            projects: [
-                {
-                    id: 1, 
-                    type: 'Desktop application'
-                },
-                {
-                    id: 2,
-                    type: 'Web'
-                },
-                {
-                    id: 3,
-                    type: 'Mobile application'
-                }
-            ]
+            projects: []
         }
+    },
+    mounted() {
+        fetch('http://localhost:3000/projects')
+            .then(res => res.json())
+            .then(data => this.projects = data)
+            .catch(err => console.log(err.message))
     }
 }
 </script>
